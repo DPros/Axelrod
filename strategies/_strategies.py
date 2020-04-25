@@ -282,6 +282,7 @@ from .zero_determinant import (
 
 
 all_strategies = [
+    PavlovRandom,
     ALLCorALLD,
     AON2,
     APavlov2006,
