@@ -19,12 +19,13 @@ annotated as to avoid some static testing. For example:
         MemoryOnePlayer
     )
 """
+from .pavlov_random import PavlovRandom
 from .adaptive import Adaptive
 from .adaptor import AdaptorBrief, AdaptorLong
 from .alternator import Alternator
 from .ann import EvolvedANN, EvolvedANN5, EvolvedANNNoise05
 from .ann import ANN, EvolvableANN  # pylint: disable=unused-import
-from .apavlov import APavlov2006, APavlov2011, PavlovRandom
+from .apavlov import APavlov2006, APavlov2011
 from .appeaser import Appeaser
 from .averagecopier import AverageCopier, NiceAverageCopier
 from .axelrod_first import (
